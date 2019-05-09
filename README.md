@@ -9,7 +9,7 @@ Testing how package naming in go works with multiple files in the same project
 ```bash
 go build
 ./go-packages-in-project-example 5 10
-=> (5 * 2) + (10 * 3) = 20
+=> (5 * 2) + (10 * 3) = 40
 ```
 
 Each sub package is in its own directory. I tried to put it in the same as main and it complained.
