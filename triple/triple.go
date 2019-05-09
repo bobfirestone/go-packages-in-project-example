@@ -3,5 +3,5 @@ package triple
 
 // Number returns the given number
 func Number(n int) int {
-	return n
+	return n * 3
 }
